@@ -34,7 +34,7 @@ void PrintMatrix(int[,,] matrix) {
 
 int[,,] array3d = CreateMatrix3DRndInt(3, 5, 6);
 
-if (array3d.GetLength(0) > 3 || array3d.GetLength(1) > 5 || array3d.GetLength(2) > 6) {
+if (array3d.Length > 90) {
     Console.WriteLine("Двузначные цифры закончились!");
 } 
 
